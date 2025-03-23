@@ -18,5 +18,5 @@ int main()
       end=mid-1;
     }
   }
-  cout<<end;
+  return end;
 }
