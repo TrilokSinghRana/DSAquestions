@@ -2,11 +2,12 @@
 using namespace std;
 int main()
 {
-  int size=0;
-  string s="name";
-  while(s[size]!='\0'){
-    size++;
-  }
-  cout<<size;
-
+    string s="name";
+    int size=0;
+    int start=0;
+    int end=s.size()-1;
+    while(s[size]!='\0'){
+      size++;
+    } 
+    cout<<size;
 }
