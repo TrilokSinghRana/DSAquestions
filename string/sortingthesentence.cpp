@@ -31,8 +31,6 @@ int main()
        temp+=' ';
    }
    temp.pop_back();
-   for(int i=0;i<temp.size();i++){
-    cout<<temp[i];
-   }
+   return temp;
 
 }
