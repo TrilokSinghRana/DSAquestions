@@ -9,7 +9,7 @@ int main()
   int index1=num1.size()-1;
   int index2=num2.size()-1;
   while(index2>=0){
-    sum=num1[index1]-'0'+num2[index2]-'0';
+    sum=num1[index1]-'0'+num2[index2]-'0'+carry;
     carry=sum/10;
     char c=sum%10+'0';
     ans+=c;
