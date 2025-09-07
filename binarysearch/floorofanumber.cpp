@@ -18,5 +18,5 @@ int main()
       end=mid-1;
     }
   }
-  return end;
+cout<< end;
 }
