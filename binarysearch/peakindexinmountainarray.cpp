@@ -6,7 +6,7 @@ int main()
   int start=0;
   int end=6;
   while(start<=end){
-    int mid=start+(end-start)/2;
+    int mid=end+(start-end)/2;
     if(arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1]){
      cout<<mid;
      return 0;

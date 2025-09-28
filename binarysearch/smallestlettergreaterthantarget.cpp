@@ -9,7 +9,7 @@ int main()
   int end=3;
   while (start<=end)
   {
-    int mid=start+(end-start)/2;
+    int mid=end+(start-end)/2;
     if(letters[mid]>target){
        end=mid-1;
     }
